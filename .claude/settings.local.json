@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:nflreadr.nflverse.com)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(source:*)",
+      "Bash(timeout 5 python:*)",
+      "Bash(python -c:*)",
+      "Bash(npx tsc:*)",
+      "Bash(python -m app.data_ingestion.ingest:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(1 curl -s \"http://localhost:8000/api/stats/categories\")",
+      "Bash(pkill:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}
